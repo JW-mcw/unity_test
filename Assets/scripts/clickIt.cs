@@ -12,7 +12,7 @@ public class clickIt : MonoBehaviour {
 
     void OnMouseDown()
     {
-        Debug.Log("clicked");
+        Debug.Log("clicked ball");
 
         // this object was clicked - do something
         anim.Play("MV");
